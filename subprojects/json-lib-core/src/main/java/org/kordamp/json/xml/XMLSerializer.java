@@ -198,9 +198,9 @@ public class XMLSerializer {
      * </ul>
      */
     public XMLSerializer() {
-        setObjectName("o");
-        setArrayName("a");
-        setElementName("e");
+        setObjectName("root");
+        setArrayName("array");
+        setElementName("element");
         setTypeHintsEnabled(true);
         setTypeHintsCompatibility(true);
         setNamespaceLenient(false);
